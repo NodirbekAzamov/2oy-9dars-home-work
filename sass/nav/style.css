@@ -110,6 +110,9 @@ nav .container .nav_many .nav_button button {
     padding: 0;
     font-size: 20px;
   }
+  nav .container .nav_many .nav_button {
+    padding-bottom: 0px;
+  }
 }
 @media (min-width: 447px) and (max-width: 768px) {
   nav .container {

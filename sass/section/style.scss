@@ -18,56 +18,64 @@
 
 section {
     background-image: url(../../images/section_bg_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
 
     .container {
         padding: 0 80px;
 
         .section_many {
             padding-top: 111px;
+
             .section_many_text {
                 display: flex;
                 justify-content: center;
+
                 h3 {
                     text-align: center;
                     color: #000;
                     font-family: "Bold";
                     font-size: 40px;
                     font-weight: 700;
-                    line-height: 48px; 
+                    line-height: 48px;
                     max-width: 345px;
                 }
             }
         }
+
         .section_boxs-big {
             padding-bottom: 162px;
             margin-left: 110px;
-            overflow: hidden;
 
             .section_boxs {
                 background: #FFF;
                 margin-top: 279px;
-                width: 4240px; 
+
+                // width: 4240px; 
                 .section_box {
                     padding: 60px 70px;
                     display: flex;
                     align-items: center;
                     gap: 50px;
+
                     .section_text {
-                        border: 1px solid;
+                        max-width: 486px;
+
                         h4 {
-                            width: 486px;
                             color: #000;
                             font-family: "Bold";
                             font-size: 21px;
                             font-weight: 700;
                             line-height: 42px;
                         }
+
                         p {
                             color: #000;
                             font-family: "Regular";
                             font-size: 18px;
                             font-weight: 400;
                             line-height: 28px;
+
                             span {
                                 font-weight: 700;
                             }
@@ -77,5 +85,202 @@ section {
             }
         }
     }
-    
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    section {
+        .container {
+            .section_boxs-big {
+                padding-bottom: 150px;
+                margin-left: 100px;
+
+                .section_boxs {
+                    .section_box {
+                        padding: 50px 60px;
+                        gap: 50px;
+
+                        .section_text {
+                            h4 {
+                                max-width: 486px;
+                                font-size: 21px;
+                                line-height: 38px;
+                                padding-right: 50px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                                line-height: 28px;
+
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+    section {
+        .container {
+            padding: 0 60px;
+
+            .section_many {
+                padding-top: 100px;
+
+                .section_many_text {
+
+                    h3 {
+                        padding: 0;
+                    }
+                }
+            }
+
+            .section_boxs-big {
+                padding-bottom: 100px;
+                margin-left: 18%;
+
+                .section_boxs {
+                    margin-top: 200px;
+
+                    .section_box {
+                        padding: 30px 15px;
+                        gap: 40px;
+
+                        .section_text {
+                            max-width: 486px;
+
+                            h4 {
+                                font-size: 21px;
+                                line-height: 30px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                                line-height: 28px;
+
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 448px) and (max-width: 769px) {
+    section {
+        .container {
+            padding: 0 40px;
+
+            .section_many {
+                padding-top: 80px;
+
+                .section_many_text {
+
+                    h3 {
+                        padding: 0;
+                    }
+                }
+            }
+
+            .section_boxs-big {
+                padding-bottom: 80px;
+                margin-left: 0;
+
+                .section_boxs {
+                    margin-top: 150px;
+
+                    .section_box {
+                        padding: 30px 15px;
+                        gap: 40px;
+
+                        .section_text {
+                            max-width: 486px;
+
+                            h4 {
+                                font-size: 16px;
+                                line-height: 25px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                line-height: 28px;
+
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    section {
+        .container {
+            padding: 0px;
+
+            .section_many {
+                padding-top: 80px;
+
+                .section_many_text {
+
+                    h3 {
+                        padding: 0 20px;
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            .section_boxs-big {
+                padding-bottom: 80px;
+                margin-left: 0;
+
+                .section_boxs {
+                    margin-top: 150px;
+                    background: transparent;
+
+                    .section_box {
+                        padding: 30px 15px;
+                        gap: 10px;
+                        display: flex;
+                        flex-direction: column;
+
+                        .section_text {
+                            max-width: 486px;
+
+                            h4 {
+                                font-size: 16px;
+                                line-height: 25px;
+                                // color: #FFF;
+
+                            }
+
+                            p {
+                                font-size: 16px;
+                                line-height: 28px;
+                                // color: #FFF;
+
+                                
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
