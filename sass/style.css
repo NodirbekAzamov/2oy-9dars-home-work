@@ -1,5 +1,6 @@
 @import url(../sass/nav/style.css);
 @import url(../sass/section/style.css);
+@import url(../sass/main/style.css);
 * {
   padding: 0;
   margin: 0;
