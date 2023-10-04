@@ -222,7 +222,6 @@ footer {
                 padding: 0;
                 display: flex;
                 justify-content: center;
-                align-items: flex-start;
                 flex-wrap: wrap;
 
                 .footer_right {
@@ -252,7 +251,7 @@ footer {
     
                 .footer_botton_many {
                     display: flex;
-                    align-items: center;
+                    align-items: flex-start;
                     justify-content: space-between;
                     gap: 20px;
     

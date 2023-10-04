@@ -163,7 +163,6 @@ footer .container .footer_botton .footer_botton_many .footer_botton_right .foote
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
   }
   footer .container .footer_many .footer_right .footer_boxs {
@@ -186,7 +185,7 @@ footer .container .footer_botton .footer_botton_many .footer_botton_right .foote
   }
   footer .container .footer_botton .footer_botton_many {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
   }
