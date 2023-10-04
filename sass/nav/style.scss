@@ -15,6 +15,9 @@
 }
 
 nav {
+
+
+    
     .container {
         padding: 0 80px;
 
@@ -48,7 +51,6 @@ nav {
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
-
 
                 .nav_box {
                     display: flex;
@@ -136,6 +138,7 @@ nav {
                     display: flex;
                     align-items: center;
                     gap: 25px;
+
                     .nav_box {
                         p {
                             padding: 0;
@@ -143,6 +146,7 @@ nav {
                         }
                     }
                 }
+
                 .nav_button {
                     padding-bottom: 0px;
                 }
@@ -155,8 +159,10 @@ nav {
     nav {
         .container {
             padding: 0 40px;
+
             .nav_many {
                 margin: 70px 0;
+
                 h2 {
                     font-size: 30px;
                     line-height: 40px;
@@ -176,9 +182,11 @@ nav {
                     justify-content: center;
                     gap: 30px;
                     margin-top: 20px;
+
                     .nav_box {
                         padding: 0 0px;
                         margin: 0 0px;
+
                         p {
                             padding: 0;
                             margin: 0;
@@ -206,8 +214,10 @@ nav {
     nav {
         .container {
             padding: 0 10px;
+
             .nav_many {
                 margin: 70px 0;
+
                 h2 {
                     font-size: 25px;
                     line-height: 35px;
@@ -227,9 +237,11 @@ nav {
                     justify-content: center;
                     gap: 30px;
                     margin-top: 20px;
+
                     .nav_box {
                         padding: 0 10px;
                         margin: 0 0px;
+
                         p {
                             padding: 0;
                             margin: 5px 0;
